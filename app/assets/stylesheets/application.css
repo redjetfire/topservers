@@ -38,7 +38,7 @@ h1 h2 h3 h4 h5 ul li a {
 
 .categories h5 {
   color: #d59f0f;
-  margin-top: 20px;
+  margin-top: 15px;
 }
 
 .categories a {
@@ -218,32 +218,41 @@ border: 1px dashed #FFFFFF;
 }
 
 hr.scheduletop {
-  margin-top: 20px;
-  margin-bottom: 10px;
-  border: 2px solid #8c5e25;
+  margin-top: 40px;
+  margin-bottom: 20px;
+  border: 1px solid #d59f0f;
 }
 
+.calendarpic {
+  float: left;
+  margin-left: 50px;
+}
 .schedulelink {
+  float: left;
+  line-height: 16px;
+  width: 50px;
   margin: 0;
-  padding: 10px 0 10px 0;
+  text-align: center;
+  padding: 0 0 10px 0;
 }
 .schedulelink a{
-  color: #8c5e25;
-  font-size: 20px;
+  color: #e2d872;
+  font-size: 16px;
   font-family: serif;
   font-weight: bold;
   margin: 0;
   padding: 0;
 }
 .schedulelink a:hover{
-  color: #e2d872;
-  font-size: 20px;
+  color: #fff8c6;
+  font-size: 16px;
   font-family: serif;
   font-weight: bold;
   text-decoration: none;
 }
 
 hr.schedulebottom {
+  clear: both;
   margin-top: 20px;
-  border: 2px solid #8c5e25;
+  border: 1px solid #d59f0f;
 }
