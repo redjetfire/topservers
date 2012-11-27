@@ -1,0 +1,53 @@
+@import "bootstrap";
+body { padding-top: 40px; }
+@import "bootstrap-responsive";
+
+#main {
+  background-color: #131313;
+}
+
+.content {
+  background-color: #131313;
+  padding: 20px;
+  margin: 0 -20px; /* negative indent the amount of the padding to maintain the grid system */
+  // -webkit-border-radius: 0 0 6px 6px;
+  // -moz-border-radius: 0 0 6px 6px;
+  // border-radius: 0 0 6px 6px;
+  // -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  // -moz-box-shadow: 0 1px 2px rgba(0,0,0,.15);
+  // box-shadow: 0 1px 2px rgba(0,0,0,.15);
+}
+
+ul.nav {
+  float: left;
+  color: #000000;
+  font-size: 14px;
+}
+
+.commenter {
+  margin-left: 10px;
+}
+
+.comment {
+  margin-left: 20px;
+}
+
+.navclass {
+  color: #fff8c6 !important;
+}
+
+// .container {
+//   background-color: #131313 !important;
+//   font-family: serif !important;
+//   font-size: 10px !important;
+// }
+
+.navbar-inner {
+  background-color: #131313 !important;
+}
+
+.navigationblock {
+  background-color: #131313 !important;
+  width: 100%;
+  height: 100%;
+}
